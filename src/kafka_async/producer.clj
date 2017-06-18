@@ -6,7 +6,9 @@
    [kafka-async.commons :as commons]
    [clojure.core.async :as a :refer [>! <! >!! close! chan timeout go-loop]]))
 
-(def producers (atom {}))
+(def producers
+  "CLojure `atom` containing all the registered producers in Kafka-Async"
+  (atom {}))
 
 (def producer-defaults
   {
