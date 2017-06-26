@@ -53,7 +53,6 @@ The producer API has two main functions, `create!` and `close`.
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Joao Vazao Vasques
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT Public License
